@@ -5,40 +5,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Featured Products</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
   <div class="background_app">
     <div class="app">
       <div class="header">
-        <div class="header_nav">
-          <div class="header_nav_left"></div>
-          <div class="header_nav_right"></div>
+        <div class="header_nav sticky">
+          <div class="header_nav_left sticky_left"><i class="fa-solid fa-bars"></i></div>
+          <div class="header_nav_right sticky_right"><i class="fa-solid fa-basket-shopping"></i></div>
         </div>
         <div class="header_text">
-          <div class="header_text_1"></div>
-          <div class="header_text_2"></div>
+          <div class="header_text_1">Featured</div>
+          <div class="header_text_2">Products</div>
         </div>
       </div>
       <div class="nav">
-        <div class="nav_catalog"></div>
-        <div class="nav_gamepad"></div>
-        <div class="nav_console"></div>
-        <div class="nav_mouse"></div>
+        <div class="nav_sliders hover_slider"><i class="fa-solid fa-sliders"></i></div>
+        <div class="nav_item hover"><i class="fa-regular fa-gamepad-modern"></i></div>
+        <div class="nav_item hover"><i class="fa-solid fa-gamepad"></i></div>
+        <div class="nav_item hover"><i class="fa-solid fa-computer-mouse"></i></div>
       </div>
       <div class="content">
-        <div class="content_product_1"></div>
-        <div class="content_product_2"></div>
-        <div class="content_product_3"></div>
-      </div>
-      <div class="footer_nav">
-        <div class="footer_nav_panel">
-          <div class="footer_nav_panel_home"></div>
-          <div class="footer_nav_panel_account"></div>
-          <div class="footer_nav_panel_settings"></div>
-          <div class="footer_nav_panel_save"></div>
+        <div class="content_product_1">
+          <div class="content_product_bacgroundcart">
+            <img src="./img/cart.png" alt="cart err">
+            <div class="content_product_controller">
+              <img width="150" height="100" src="./img/controller.png" alt="con err">
+                <div class="info_product">
+                <h2>Dual Sense</h2>
+                <h5>Official PS5 controller</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content_product_2">
+          <img src="./img/cart.png" alt="cart err">
+          <div class="content_product_controller">
+            <img width="150" height="100" src="./img/controller.png" alt="con err">
+            <div class="info_product">
+              <h2>Dual Sense</h2>
+              <h5>Official PS5 controller</h5>
+            </div>
+          </div>
+        </div>
+        <div class="content_product_3">
+          <img src="./img/cart.png" alt="cart err">
+          <div class="content_product_controller">
+            <img width="150" height="100" src="./img/controller.png" alt="con err">
+              <div class="info_product">
+                <h2>Dual Sense</h2>
+                <h5>Official PS5 controller</h5>
+              </div>
+          </div>
         </div>
       </div>
+        <div class="footer_nav">
+          <div class="footer_nav_home"><i class="fa-light fa-house"></i></div>
+          <div class="footer_nav_account"><i class="fa-light fa-user"></i></div>
+          <div class="footer_nav_settings"><i class="fa-solid fa-gear"></i></div>
+          <div class="footer_nav_save"><i class="fa-solid fa-bookmark"></i></div>
+        </div>
     </div>
   </div>
 </body>
