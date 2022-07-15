@@ -2,9 +2,9 @@
   margin: 0px;
   margin: 0px;
 }
-/* .background_app {
-
-} */
+.background_app {
+background-color: #17181a;
+} 
 
 .app {
   height: 98%;
@@ -14,13 +14,35 @@
 .header_nav {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  padding-top: 3%;
   height: 120px;
 }
 
-.sticky {
-  position: sticky;
-  top: 5%;
+.product {
+  color: white;
+  margin-left: 25px;
+  padding-bottom: 2zpx;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.platform,
+.realase,
+.price {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.product_container_1 {
+  
+}
+
+.product_container_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header_nav_left {
@@ -34,7 +56,34 @@
   margin-bottom: 3%;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
+
+.menu {
+  display: none;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  align-items: center;
+  padding: 0 20%;
+  color: white;
+}
+
+.menu > li > a:hover {
+  color: white;
+}
+
+/*.popup {
+  position: fixed;
+  top: 75px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 100;
+  display: flex;
+  transition: 0.3s;
+}*/
 
 .header_nav_right {
   height: 50px;
@@ -47,11 +96,12 @@
   margin-bottom: 3%;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 
 .header_text_1 {
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 4rem;
   height: 45px;
   width: 250px;
@@ -65,7 +115,7 @@
 }
 
 .header_text_2 {
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 4rem;
   height: 45px;
   width: 250px;
@@ -179,16 +229,31 @@
   padding-bottom: 0.5%;
   margin-left: 10%;
   margin-right: 10%;
+  border: #fff solid;
+  border-radius: 10%;
 }
 
-.footer_nav_home,
-.footer_nav_account,
-.footer_nav_settings,
-.footer_nav_save {
-  color: rgb(0, 0, 0);
+.footer_nav_home {
+  color: white;
   border: solid;
   height: 45px;
   width: 135px;
+  margin-top: 1%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-bottom: 1%;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_nav_account,
+.footer_nav_settings,
+.footer_nav_save {
+  color: white;
+  height: 45px;
+  width: 50px;
   margin-top: 1%;
   margin-left: 1.5%;
   margin-right: 1.5%;

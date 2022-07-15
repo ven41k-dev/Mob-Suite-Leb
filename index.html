@@ -7,14 +7,30 @@
   <title>Featured Products</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <!-- 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/app.js"></script> -->
 </head>
 <body>
   <div class="background_app">
     <div class="app">
       <div class="header">
-        <div class="header_nav sticky">
-          <div class="header_nav_left sticky_left"><i class="fa-solid fa-bars"></i></div>
-          <div class="header_nav_right sticky_right"><i class="fa-solid fa-basket-shopping"></i></div>
+        <div class="header_nav">
+          <div class="header_nav_left" id="header_nav_left">
+            <i class="fa-solid fa-bars"></i>
+            <ul class="menu" id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Filters</a></li>
+              <li><a href="#">Console</a></li>
+              <li><a href="#">Controller</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="popup" id="popup"></div>
+          <div class="header_nav_right" id="header_nav_right"><i class="fa-solid fa-basket-shopping"></i></div>
         </div>
         <div class="header_text">
           <div class="header_text_1">Featured</div>
@@ -34,8 +50,8 @@
             <div class="content_product_controller">
               <img width="150" height="100" src="./img/controller.png" alt="con err">
                 <div class="info_product">
-                <h2>Dual Sense</h2>
-                <h5>Official PS5 controller</h5>
+                  <h4>Dual Sense</h4>
+                  <h7>Official PS5 controller</h7>
               </div>
             </div>
           </div>
@@ -45,8 +61,8 @@
           <div class="content_product_controller">
             <img width="150" height="100" src="./img/controller.png" alt="con err">
             <div class="info_product">
-              <h2>Dual Sense</h2>
-              <h5>Official PS5 controller</h5>
+              <h4>Dual Sense</h4>
+              <h7>Official PS5 controller</h7>
             </div>
           </div>
         </div>
@@ -55,14 +71,14 @@
           <div class="content_product_controller">
             <img width="150" height="100" src="./img/controller.png" alt="con err">
               <div class="info_product">
-                <h2>Dual Sense</h2>
-                <h5>Official PS5 controller</h5>
+                <h4>Dual Sense</h4>
+              <h7>Official PS5 controller</h7>
               </div>
           </div>
         </div>
       </div>
         <div class="footer_nav">
-          <div class="footer_nav_home"><i class="fa-light fa-house"></i></div>
+          <div class="footer_nav_home"><p>Home  .</p><i class="fa-light fa-house"></i></div>
           <div class="footer_nav_account"><i class="fa-light fa-user"></i></div>
           <div class="footer_nav_settings"><i class="fa-solid fa-gear"></i></div>
           <div class="footer_nav_save"><i class="fa-solid fa-bookmark"></i></div>
