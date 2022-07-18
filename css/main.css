@@ -108,7 +108,6 @@
   margin-top: 35px;
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
 }
 
 .futuristic,
@@ -121,11 +120,11 @@
   background-color: #31343b;
   color: white;
   border-radius: 0.5em;
-  margin-left: 3%;
+  margin-left: 1%;
   margin-bottom: 3%;
+  margin-top: 3%;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   box-shadow: 5px 5px 15px 1px #060707;
-  flex-direction: row;
 }
